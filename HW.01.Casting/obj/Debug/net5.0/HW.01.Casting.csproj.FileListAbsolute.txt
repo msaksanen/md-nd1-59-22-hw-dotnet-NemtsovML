@@ -1,0 +1,15 @@
+C:\Users\wisor\source\repos\HW.01.Casting\bin\Debug\net5.0\HW.01.Casting.exe
+C:\Users\wisor\source\repos\HW.01.Casting\bin\Debug\net5.0\HW.01.Casting.deps.json
+C:\Users\wisor\source\repos\HW.01.Casting\bin\Debug\net5.0\HW.01.Casting.runtimeconfig.json
+C:\Users\wisor\source\repos\HW.01.Casting\bin\Debug\net5.0\HW.01.Casting.runtimeconfig.dev.json
+C:\Users\wisor\source\repos\HW.01.Casting\bin\Debug\net5.0\HW.01.Casting.dll
+C:\Users\wisor\source\repos\HW.01.Casting\bin\Debug\net5.0\ref\HW.01.Casting.dll
+C:\Users\wisor\source\repos\HW.01.Casting\bin\Debug\net5.0\HW.01.Casting.pdb
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\HW.01.Casting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\HW.01.Casting.AssemblyInfoInputs.cache
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\HW.01.Casting.AssemblyInfo.cs
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\HW.01.Casting.csproj.CoreCompileInputs.cache
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\HW.01.Casting.dll
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\ref\HW.01.Casting.dll
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\HW.01.Casting.pdb
+C:\Users\wisor\source\repos\HW.01.Casting\obj\Debug\net5.0\HW.01.Casting.genruntimeconfig.cache
