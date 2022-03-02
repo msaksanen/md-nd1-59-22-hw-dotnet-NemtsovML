@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\wisor\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\wisor\\.nuget\\packages"
-    ]
-  }
-}
