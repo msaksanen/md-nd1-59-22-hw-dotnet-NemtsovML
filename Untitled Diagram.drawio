@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T13:54:30.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21" etag="3T5IGlngj4aLVIii_UB1" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T14:01:30.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21" etag="QIvf-WMFaogiGnKq16V0" version="16.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1210" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
         </mxCell>
         <mxCell id="CBsSBNwXO_VxB48tIqk5-90" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="4080" as="sourcePoint" />
+            <mxPoint x="640" y="4710" as="sourcePoint" />
             <mxPoint x="640" y="1430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -370,6 +370,9 @@
         <mxCell id="CBsSBNwXO_VxB48tIqk5-94" value="Представленный&lt;br&gt;&amp;nbsp;вариант подходит?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="105" y="4030" width="260" height="102" as="geometry" />
         </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-96" target="CBsSBNwXO_VxB48tIqk5-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CBsSBNwXO_VxB48tIqk5-96" value="Внести свои данные:&lt;br&gt;1)	«Путешествуете ли по работе?»&lt;br&gt;2)	Имя и фамилия (латиницей).&lt;br&gt;3)	Адрес электронной почты.&lt;br&gt;4)	Подтвердите электронный адрес.&lt;br&gt;5) Указать «Кто основной гость?»&lt;br&gt;6) Указать «Имя и фамилия гостя».&lt;br&gt;7) Указать особые пожелания (на английском).&lt;br&gt;8)	Указать время прибытия (местное время)." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="4190" width="330" height="170" as="geometry" />
         </mxCell>
@@ -378,6 +381,41 @@
         </mxCell>
         <mxCell id="CBsSBNwXO_VxB48tIqk5-101" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="474" y="4050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-103" target="CBsSBNwXO_VxB48tIqk5-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-103" value="Нажать&lt;br&gt;&amp;nbsp;«Далее: финальные данные»" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="108.35" y="4430" width="253.29" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-106" target="CBsSBNwXO_VxB48tIqk5-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-106" value="Просмотреть открывшуюся страницу." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158.75" y="4550" width="152.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-108" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D0%B8%D1%82%3F%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D14%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22105%22%20y%3D%224030%22%20width%3D%22260%22%20height%3D%22102%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="4625" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-109" target="CBsSBNwXO_VxB48tIqk5-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="4706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-109" value="Представленный&lt;br&gt;&amp;nbsp;вариант подходит?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="4655" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-111" value="Внести свои данные:&lt;br&gt;&lt;div&gt;1) Указать адрес проживания.&lt;/div&gt;&lt;div&gt;2)&lt;span&gt;	&lt;/span&gt;Город.&lt;/div&gt;&lt;div&gt;3)&lt;span&gt;	&lt;/span&gt;Страна.&lt;/div&gt;&lt;div&gt;4)&lt;span&gt;	&lt;/span&gt;Почтовый индекс.&lt;/div&gt;&lt;div&gt;5)&lt;span&gt;	&lt;/span&gt;Номер телефона.&lt;/div&gt;&lt;div&gt;6)&lt;span&gt;&amp;nbsp;С&lt;/span&gt;охранить свои данные.&lt;/div&gt;&lt;div&gt;7)&lt;span&gt;	&lt;/span&gt;Выбрать способ оплаты бронирования.&lt;/div&gt;&lt;div&gt;8)&lt;span&gt;	&lt;/span&gt;Выбрать способ оплаты и внести данные платежного средства.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="4830" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-113" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="167.5" y="4770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-116" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="4676" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
