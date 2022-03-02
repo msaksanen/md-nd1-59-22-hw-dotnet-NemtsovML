@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T13:48:18.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21" etag="nPNciDlHRo2_WL2HVds9" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T13:54:30.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21" etag="3T5IGlngj4aLVIii_UB1" version="16.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1210" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,6 +326,9 @@
         <mxCell id="CBsSBNwXO_VxB48tIqk5-81" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="3580" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-84" target="CBsSBNwXO_VxB48tIqk5-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CBsSBNwXO_VxB48tIqk5-84" value="&lt;b&gt;Я бронирую&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="175" y="3770" width="120" height="60" as="geometry" />
         </mxCell>
@@ -340,7 +343,7 @@
         </mxCell>
         <mxCell id="CBsSBNwXO_VxB48tIqk5-90" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="3420" as="sourcePoint" />
+            <mxPoint x="640" y="4080" as="sourcePoint" />
             <mxPoint x="640" y="1430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -349,6 +352,32 @@
             <mxPoint x="640" y="1430" as="sourcePoint" />
             <mxPoint x="290" y="1430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-92" target="CBsSBNwXO_VxB48tIqk5-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-92" value="Просмотреть открывшуюся страницу." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158.75" y="3920" width="152.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-94" target="CBsSBNwXO_VxB48tIqk5-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="4081" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-94" value="Представленный&lt;br&gt;&amp;nbsp;вариант подходит?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="4030" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-96" value="Внести свои данные:&lt;br&gt;1)	«Путешествуете ли по работе?»&lt;br&gt;2)	Имя и фамилия (латиницей).&lt;br&gt;3)	Адрес электронной почты.&lt;br&gt;4)	Подтвердите электронный адрес.&lt;br&gt;5) Указать «Кто основной гость?»&lt;br&gt;6) Указать «Имя и фамилия гостя».&lt;br&gt;7) Указать особые пожелания (на английском).&lt;br&gt;8)	Указать время прибытия (местное время)." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="4190" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-99" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-101" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="474" y="4050" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
