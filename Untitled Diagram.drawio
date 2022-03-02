@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T14:01:30.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21" etag="QIvf-WMFaogiGnKq16V0" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T14:04:15.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21" etag="wjGxCVjqdm3lvwWEZr4r" version="16.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1210" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxPoint x="220" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Начало&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="10" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BFL_2XHOUMs97H4_P7Qg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
@@ -408,6 +408,9 @@
         <mxCell id="CBsSBNwXO_VxB48tIqk5-109" value="Представленный&lt;br&gt;&amp;nbsp;вариант подходит?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="105" y="4655" width="260" height="102" as="geometry" />
         </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-111" target="CBsSBNwXO_VxB48tIqk5-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CBsSBNwXO_VxB48tIqk5-111" value="Внести свои данные:&lt;br&gt;&lt;div&gt;1) Указать адрес проживания.&lt;/div&gt;&lt;div&gt;2)&lt;span&gt;	&lt;/span&gt;Город.&lt;/div&gt;&lt;div&gt;3)&lt;span&gt;	&lt;/span&gt;Страна.&lt;/div&gt;&lt;div&gt;4)&lt;span&gt;	&lt;/span&gt;Почтовый индекс.&lt;/div&gt;&lt;div&gt;5)&lt;span&gt;	&lt;/span&gt;Номер телефона.&lt;/div&gt;&lt;div&gt;6)&lt;span&gt;&amp;nbsp;С&lt;/span&gt;охранить свои данные.&lt;/div&gt;&lt;div&gt;7)&lt;span&gt;	&lt;/span&gt;Выбрать способ оплаты бронирования.&lt;/div&gt;&lt;div&gt;8)&lt;span&gt;	&lt;/span&gt;Выбрать способ оплаты и внести данные платежного средства.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="85" y="4830" width="300" height="200" as="geometry" />
         </mxCell>
@@ -416,6 +419,15 @@
         </mxCell>
         <mxCell id="CBsSBNwXO_VxB48tIqk5-116" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="4676" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CBsSBNwXO_VxB48tIqk5-118" target="CBsSBNwXO_VxB48tIqk5-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-118" value="&lt;b&gt;Завершить бронирование&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="174.99" y="5110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBsSBNwXO_VxB48tIqk5-120" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Конец алгоритма&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="163.75" y="5231" width="142.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
