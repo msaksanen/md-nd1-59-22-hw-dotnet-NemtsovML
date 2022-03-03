@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace hw_02
+namespace HW._01.Casting
 {
     class Program
-    {
+    { 
         static void Main()
         {
             Console.WriteLine("Implicit conversion");
