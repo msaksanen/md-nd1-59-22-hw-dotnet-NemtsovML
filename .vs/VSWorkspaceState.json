@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\homeworks",
+    "\\homeworks\\hw_02",
+    "\\homeworks\\hw_02\\homeworks",
+    "\\homeworks\\hw_02\\homeworks\\HW.01.Casting"
   ],
-  "SelectedNode": "\\C:\\Users\\wisor\\Source\\Repos\\md-nd1-59-22-hw-dotnet-NemtsovML",
+  "SelectedNode": "\\homeworks\\hw_02\\homeworks\\HW.01.Casting\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
