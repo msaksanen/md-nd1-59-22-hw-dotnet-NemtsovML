@@ -62,14 +62,15 @@ namespace HW._05.Quadratic.Formula
             while (result == false);
 
             Console.WriteLine($"Your equation is {a}x^2+({b})x+({c})=0");
-
-            if (b == 0 & c == 0)
+            //All variants and solutions are taken from:
+            //https://skysmart.ru/articles/mathematic/kak-reshat-kvadratnye-uravneniya
+            if (b == 0 & c == 0)  //a*x^2=0
             { x1 = 0;
               Console.WriteLine("The result is x=0");
               goto ToEnd;
             }
             
-            if (b == 0)
+            if (b == 0)         //a*x^2+c=0
             { if (c / a > 0)
                 {
                     Console.WriteLine($"No roots of the equation: x^2=-({c})/({a}).");
@@ -84,7 +85,7 @@ namespace HW._05.Quadratic.Formula
                 }
             }
            
-            if (c == 0)
+            if (c == 0)        //a*x^2+b*x=0
             {
                 x1 = 0;
                 x2 = (-1) * b / a;
