@@ -61,11 +61,7 @@ namespace HW._02.Types
             object o1 = "Object C#";
             System.Object o2 = 1245.2;
             Console.WriteLine($"object type  o1 {o1}  {o1.GetType()}  o2 {o2} {o2.GetType()} ");
-
-
             Console.ReadKey();
-
-
         }
     }
 }
