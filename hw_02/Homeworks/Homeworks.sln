@@ -11,17 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.03.Image", "HW.03.Image\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.05.Quadratic.Formula", "HW.05.Quadratic.Formula\HW.05.Quadratic.Formula.csproj", "{0B238FEE-5B5E-4607-BFB0-0E3BED74FD59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Operators1", "..\..\hw_04\HW04.Operators1\HW04.Operators1.csproj", "{7EE2AB13-4C40-4CBF-8713-535714D73587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW04.Operators1", "..\..\hw_04\HW04.Operators1\HW04.Operators1.csproj", "{7EE2AB13-4C40-4CBF-8713-535714D73587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Operators2", "..\..\hw_04\HW04.Operators2\HW04.Operators2.csproj", "{E7712F7E-5D1B-4840-ABFC-E29A72C1C458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW04.Operators2", "..\..\hw_04\HW04.Operators2\HW04.Operators2.csproj", "{E7712F7E-5D1B-4840-ABFC-E29A72C1C458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Operators3", "..\..\hw_04\HW04.Operators3\HW04.Operators3.csproj", "{8DC365A3-8A63-47D8-B18F-C3227BCA2754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW04.Operators3", "..\..\hw_04\HW04.Operators3\HW04.Operators3.csproj", "{8DC365A3-8A63-47D8-B18F-C3227BCA2754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Operators4", "..\..\hw_04\HW04.Operators4\HW04.Operators4.csproj", "{1D4E5F68-9639-4585-B9DD-17D56DE91238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW04.Operators4", "..\..\hw_04\HW04.Operators4\HW04.Operators4.csproj", "{1D4E5F68-9639-4585-B9DD-17D56DE91238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Loops", "..\..\hw_04\HW04.Loops\HW04.Loops.csproj", "{10CCD23B-4C8B-4072-BA03-92CDFF3806DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW04.Loops", "..\..\hw_04\HW04.Loops\HW04.Loops.csproj", "{10CCD23B-4C8B-4072-BA03-92CDFF3806DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Game", "..\..\hw_04\HW04.Game\HW04.Game.csproj", "{C1B7B26E-C2E4-43A9-A051-E406ECF79992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW04.Game", "..\..\hw_04\HW04.Game\HW04.Game.csproj", "{C1B7B26E-C2E4-43A9-A051-E406ECF79992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW04.Birthday", "..\..\hw_04\HW04.Birthday\HW04.Birthday.csproj", "{A1FCF57D-4693-4850-A7F1-8412ABCFB2AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{C1B7B26E-C2E4-43A9-A051-E406ECF79992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B7B26E-C2E4-43A9-A051-E406ECF79992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B7B26E-C2E4-43A9-A051-E406ECF79992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FCF57D-4693-4850-A7F1-8412ABCFB2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FCF57D-4693-4850-A7F1-8412ABCFB2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FCF57D-4693-4850-A7F1-8412ABCFB2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FCF57D-4693-4850-A7F1-8412ABCFB2AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
