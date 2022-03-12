@@ -15,7 +15,7 @@ namespace HW04.Operators3
             {
                 string? input1 = Console.ReadLine();
                 result = double.TryParse(input1, out n1);
-                if (result == false)
+                if (!result)
                 {
                     Console.WriteLine("The number1 has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
@@ -25,14 +25,14 @@ namespace HW04.Operators3
                     else goto ToEnd;
                 }
             }
-            while (result == false);
+            while (!result);
 
             Console.WriteLine("Input number2:");
             do
             {
                 string? input1 = Console.ReadLine();
                 result = double.TryParse(input1, out n2);
-                if (result == false)
+                if (!result)
                 {
                     Console.WriteLine("The number2 has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
@@ -42,14 +42,14 @@ namespace HW04.Operators3
                     else goto ToEnd;
                 }
             }
-            while (result == false);
+            while (!result);
 
             Console.WriteLine($"Let's do a sum: ({n1}) + ({n2}) \nInput your sum:");
             do
             {
                 string? input1 = Console.ReadLine();
                 result = double.TryParse(input1, out ysum);
-                if (result == false)
+                if (!result)
                 {
                     Console.WriteLine("You have input value of incorrect data type. Would you like to input value of correct data type? Type Y/N.");
                     string? input2 = Console.ReadLine();
@@ -59,22 +59,22 @@ namespace HW04.Operators3
                     else goto ToEnd;
                 }
             }
-            while (result == false);
+            while (!result);
 
             sum = n1 + n2;
             if (ysum == sum)
             {
-                Console.WriteLine($"Your sum is correct: {sum} = ({n1}) + ({n2}).");
+                Console.WriteLine($"Your sum is correct: ({n1}) + ({n2}) = {sum} .");
             }
             else if (sum > ysum)
             {
                 Console.WriteLine($"Your result is incorrect. It is less than correct sum: ({sum})>({ysum})");
-                Console.WriteLine($"{ysum} != ({n1}) + ({n2}). \n({n1}) + ({n2}) = {sum}");
+                Console.WriteLine($"({n1}) + ({n2}) != {ysum} . \n({n1}) + ({n2}) = {sum} .");
             }
             else
             {
                 Console.WriteLine($"Your result is incorrect. It is larger than correct sum: ({sum})<({ysum})");
-                Console.WriteLine($"{ysum} != ({n1}) + ({n2}). \n({n1}) + ({n2}) = {sum}");
+                Console.WriteLine($"({n1}) + ({n2}) != {ysum} . \n({n1}) + ({n2}) = {sum} .");
             }
 
         ToEnd: Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");

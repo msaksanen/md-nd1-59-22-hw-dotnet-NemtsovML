@@ -14,7 +14,7 @@ namespace HW04.Operators1
             {
                 string? input1 = Console.ReadLine();
                 result = double.TryParse(input1, out n1);
-                if (result == false)
+                if (!result)
                 {
                     Console.WriteLine("The number1 has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
@@ -24,14 +24,14 @@ namespace HW04.Operators1
                     else goto ToEnd;
                 }
             }
-            while (result == false);
+            while (!result);
 
             Console.WriteLine("Input number2:");
             do
             {
                 string? input1 = Console.ReadLine();
                 result = double.TryParse(input1, out n2);
-                if (result == false)
+                if (!result)
                 {
                     Console.WriteLine("The number2 has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
@@ -41,7 +41,7 @@ namespace HW04.Operators1
                     else goto ToEnd;
                 }
             }
-            while (result == false);
+            while (!result);
 
 
             Console.WriteLine($"Let's do a sum: {n1}+({n2}).");

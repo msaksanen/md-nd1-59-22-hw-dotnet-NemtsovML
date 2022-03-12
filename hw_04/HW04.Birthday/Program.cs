@@ -27,12 +27,12 @@ namespace HW04.Birthday
             }
             while (!result || (cur_month > 12 || cur_month == 0));
 
-            Console.WriteLine("Please input current year in XXXX format.");
+            Console.WriteLine("Please input current year (for calculation) in XXXX format (-2200 BC; 2200 AD).");
             do
             {
                 string? input1 = Console.ReadLine();
                 result = int.TryParse(input1, out cur_yr);
-                if (!result || (cur_yr > 2200 ||cur_yr < 0 ))
+                if (!result || (cur_yr > 2200 ||cur_yr < -2200 )) //Some people lived BC )).
                 {
                     Console.WriteLine("The number of the year has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
@@ -43,7 +43,7 @@ namespace HW04.Birthday
                     else goto ToEnd;
                 }
             }
-            while (!result || (cur_yr > 2200 || cur_yr < 0));
+            while (!result || (cur_yr > 2200 || cur_yr < -2200));
 
             Console.WriteLine("Please input number of a birthday month (1-12) of a person.");
             do
@@ -63,12 +63,18 @@ namespace HW04.Birthday
             }
             while (!result || (br_month > 12 || br_month == 0));
 
-            Console.WriteLine("Please input a birthday year of a person in XXXX format.");
+            Console.WriteLine("Please input a birth year of a person in XXXX format (-2200 BC; 2200 AD).");
             do
             {
                 string? input1 = Console.ReadLine();
                 result = int.TryParse(input1, out br_yr);
-                if (!result || (br_yr > 2200 || br_yr < 0) || (cur_yr<br_yr))
+                if (result & (br_yr < 2200 & br_yr > -2200) & (cur_yr < br_yr))
+                {
+                    Console.WriteLine("You have input incorrect data: birth year > current (calculation) year.");
+                    Console.WriteLine("Please restart the program for correct calculation.");
+                    goto ToEnd;
+                }
+                if (!result || (br_yr > 2200 || br_yr < -2200) || (cur_yr<br_yr))
                 {
                     Console.WriteLine("The number of the year has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
@@ -79,12 +85,12 @@ namespace HW04.Birthday
                     else goto ToEnd;
                 }
             }
-            while (!result || (br_yr > 2200 || br_yr < 0) || (cur_yr < br_yr));
+            while (!result || (br_yr > 2200 || br_yr < -2200) || (cur_yr < br_yr));
 
             age = cur_yr - br_yr-1;
 
             if (cur_month >= br_month) ++age;
-            Console.WriteLine($"Age of the person is {age} years.");
+            Console.WriteLine($"Age of a person is (was) {age} years.");
 
      ToEnd: Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
             string? input3 = Console.ReadLine();

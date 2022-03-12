@@ -27,9 +27,9 @@ namespace HW04.Loops
                     break;
             }
  
-            for (int i=l;i>=f;i--)
+            for (int i = l; i >= f; i--)
             {
-                char c= (char) i;
+                char c = (char) i;
                 Console.WriteLine(c);
             }
             Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
