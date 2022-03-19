@@ -14,7 +14,7 @@ namespace HW._06.Task2
 
             for (int i = 0; i < num.Length - 1; i++)
             {
-                Console.WriteLine($"Input number[{i + 1}]");
+                Console.WriteLine($"Input number[{i + 1}]"); //The program counts items from [1] for user convenience.
                 do
                 {
                     string? input1 = Console.ReadLine();

@@ -6,7 +6,7 @@ namespace HW._06.Task4
     {
         static void Main()
         {
-            int n;
+            int n, temp;
             bool IscorrectInput;
         ToStart: Console.WriteLine("Input the highest number for new triangle (positive integer 1-100).");
             do
@@ -29,17 +29,14 @@ namespace HW._06.Task4
 
             for (int i = 0; i <= n; i++)
             {
-                for (int x = 1; x <= i; x++) Console.Write("  ");
+                for (int x = 1; x <= i; x++) Console.Write(" ");
                 for (int j = 1; j <= n - i; j++)
                 {
-                    if (i + 1 < 10)
-                    {
-                        Console.Write(" " + (i + 1) + "  "); //Additional space to keep symmetry.
-                    }
-                    else
-                    {
-                        Console.Write((i + 1) + "  ");
-                    }
+                   if (i + 1 < 10) temp = i + 1;
+                   else temp = (i + 1) % 10;            //Creates symbols corresponding to numbers greater than 10.
+
+                   if (j == n - i) Console.Write(temp); //The last symbol of the line. 
+                   else Console.Write(temp + " ");      //Other symbols of the line.
                 }
                 Console.WriteLine();
             }

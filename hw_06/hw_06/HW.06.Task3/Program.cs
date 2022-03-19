@@ -37,7 +37,7 @@ namespace HW._06.Task3
                 num[i] = rnd.Next(0, 1000);
             }
 
-            Console.WriteLine("Your one-dimension array:");
+            Console.WriteLine("Your one-dimension array:"); //The program counts items from [1] for user convenience.
 
             for (int i = 0; i < l; i++)
             {
@@ -54,7 +54,7 @@ namespace HW._06.Task3
             }
 
             stopwatch.Stop();
-            long ts1 = stopwatch.ElapsedTicks;  // Get the elapsed time in ticks (1 tick = 100 nanoseconds).
+            long ts1 = stopwatch.ElapsedTicks;  // Gets the elapsed time in ticks (1 tick = 100 nanoseconds).
             stopwatch.Reset();
 
 
@@ -70,7 +70,7 @@ namespace HW._06.Task3
             Array.Reverse(num, 0, l);
 
             stopwatch.Stop();
-            long ts2 = stopwatch.ElapsedTicks;  // Get the elapsed time in ticks (1 tick = 100 nanoseconds).
+            long ts2 = stopwatch.ElapsedTicks;  // Gets the elapsed time in ticks (1 tick = 100 nanoseconds).
             stopwatch.Reset();
 
             Console.WriteLine("Re-reversed one-dimension array with Array.Reverse Method:");

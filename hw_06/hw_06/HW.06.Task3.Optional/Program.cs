@@ -43,6 +43,8 @@ namespace HW._06.Task3.Optional
             {
                 Console.WriteLine($"Item[{i + 1}] " + num[i]);
             }
+           
+            //The program counts items from [1] for user convenience.
 
             Console.WriteLine("Input position of the first item for reversion (positive integer).");
             do
@@ -100,8 +102,6 @@ namespace HW._06.Task3.Optional
             {
                 Console.WriteLine($"Item[{i + 1}] " + num[i]);
             }
-
-            //Console.WriteLine("RunTime of my Reverse Array Algo: " + ts1 + " ticks.");
 
             stopwatch.Start();
 

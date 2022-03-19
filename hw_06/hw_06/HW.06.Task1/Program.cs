@@ -40,7 +40,7 @@ namespace HW._06.Task1
 
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine($"Input item[{i + 1}]");
+                Console.WriteLine($"Input item[{i + 1}]"); //The program counts items from [1] for user convenience.
                 do
                 {
                     string? input1 = Console.ReadLine();
