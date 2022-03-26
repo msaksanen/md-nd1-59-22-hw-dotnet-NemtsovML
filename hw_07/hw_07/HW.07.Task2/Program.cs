@@ -90,16 +90,37 @@ namespace HW._07.Task2
         {
             int count_let = 0;
             int count_punct = 0;
+            int symb;
 
             foreach (char ch in text)
             {
-                if (ch >= 65 && ch <= 90)  count_let++;                   //Letters A-Z.
-                if (ch >= 97 && ch <= 122) count_let++;                  //Letters a-z.
-                if (ch == 33 || ch == 34)  count_punct++;                 //Symbols ! "
-                if (ch >= 39 && ch <= 41)  count_punct++;                 //Symbols ' ( )
-                if (ch >= 44 && ch <= 46)  count_punct++;                 //Symbols , . -
-                if (ch == 58 || ch == 59 || ch == 63) count_punct++;     //Symbols : ; ?
-                if (ch >= 1040 && ch <= 1103) count_let++;               //Letters А-Я/а-я.
+                symb = (char)ch;
+                switch (symb)
+                {
+                    case >= 65 when (symb<= 90):
+                        count_let++; break;
+                    case >= 97 when (symb <= 122):
+                        count_let++; break;
+                    case 33:
+                    case 34:
+                    case 58:
+                    case 59:
+                    case 63:
+                        count_punct++; break;
+                    case >= 39 when (symb <= 41):
+                        count_punct++; break;
+                    case >= 44 when (symb <= 46):
+                        count_punct++; break;
+                    case >= 1040 when (symb <= 1103):
+                        count_let++; break;
+                }
+                //if (ch >= 65 && ch <= 90)  count_let++;                   //Letters A-Z.
+                //if (ch >= 97 && ch <= 122) count_let++;                  //Letters a-z.
+                //if (ch == 33 || ch == 34)  count_punct++;                 //Symbols ! "
+                //if (ch >= 39 && ch <= 41)  count_punct++;                 //Symbols ' ( )
+                //if (ch >= 44 && ch <= 46)  count_punct++;                 //Symbols , . -
+                //if (ch == 58 || ch == 59 || ch == 63) count_punct++;     //Symbols : ; ?
+                //if (ch >= 1040 && ch <= 1103) count_let++;               //Letters А-Я/а-я.
             }
             Console.WriteLine($"The number of letters is {count_let}. \nThe number of punctuation symbols is:{count_punct}.");
         }
