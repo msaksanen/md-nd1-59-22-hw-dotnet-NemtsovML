@@ -7,7 +7,7 @@ namespace HW._05.Quadratic.Formula
         static void Main()
         {
             double a, b, c, x1, x2, d; bool result;
-        ToStart: Console.WriteLine("Input coefficients for quadratic equation ax^2+bx+c=0");
+   ToStart: Console.WriteLine("Input coefficients for quadratic equation ax^2+bx+c=0");
             Console.WriteLine("Use number decimal separator ',' or '.' according to your regional settings");
 
             Console.WriteLine("Input a");
@@ -115,7 +115,7 @@ namespace HW._05.Quadratic.Formula
             }
 
 
-        ToEnd: Console.WriteLine("The program is finished. Would you like to start again? Type Y/N");
+     ToEnd: Console.WriteLine("The program is finished. Would you like to start again? Type Y/N");
             string? input3 = Console.ReadLine();
             bool result3 = char.TryParse(input3, out char yn1);
             if (result3 == true & yn1 == 'Y' || yn1 == 'y') goto ToStart;

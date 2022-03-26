@@ -71,7 +71,7 @@ namespace HW04.Operators2
                 Console.WriteLine($"Your result is incorrect: ({n1}) + ({n2}) != {ysum} . \n({n1}) + ({n2}) = {sum} .");
             }
 
-        ToEnd: Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
+     ToEnd: Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
             string? input3 = Console.ReadLine();
             bool result3 = char.TryParse(input3, out char yn1);
             if (result3 == true & yn1 == 'Y' || yn1 == 'y') goto ToStart;

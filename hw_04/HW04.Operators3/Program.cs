@@ -7,7 +7,7 @@ namespace HW04.Operators3
         static void Main()
         {
             double n1, n2, ysum, sum; bool result;
-        ToStart: Console.WriteLine("Input numbers for addition: sum = number1 + number2.");
+   ToStart: Console.WriteLine("Input numbers for addition: sum = number1 + number2.");
             Console.WriteLine("Use number decimal separator ',' or '.' according to your regional settings.");
 
             Console.WriteLine("Input number1:");

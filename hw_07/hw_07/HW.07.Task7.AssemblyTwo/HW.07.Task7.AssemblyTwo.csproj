@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>HW._07.Task7.AssemblyTwo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HW.07.Task7.AssemblyOne\HW.07.Task7.AssemblyOne.csproj" />
+  </ItemGroup>
+
+</Project>
