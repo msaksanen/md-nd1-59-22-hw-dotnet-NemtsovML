@@ -39,8 +39,9 @@ namespace HW._07.Task1
         static void ContinueVerify()
         {
             string? input2 = Console.ReadLine();
-            bool result2 = char.TryParse(input2, out char yn);
-            if (result2 == true & yn == 'Y' || yn == 'y')
+            //bool result2 = char.TryParse(input2, out char yn);
+            //if (result2 == true & yn == 'Y' || yn == 'y')
+            if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                 Console.WriteLine($"Input line with correct dividing symbols.");
             else EndApplication();
         }
@@ -48,14 +49,16 @@ namespace HW._07.Task1
         {
             Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
             string? input3 = Console.ReadLine();
-            bool result3 = char.TryParse(input3, out char yn1);
-            if (result3 == true & yn1 == 'Y' || yn1 == 'y') Main();
+            //bool result3 = char.TryParse(input3, out char yn1);
+            //if (result3 == true & yn1 == 'Y' || yn1 == 'y') Main();
+            if (input3.Equals("Y", StringComparison.OrdinalIgnoreCase)) Main();
             else
             {
                 Console.WriteLine("Press any key to quit the application.");
                 Console.ReadKey();
+                Environment.Exit(0);
             }
-
         }
     }
 }
+
