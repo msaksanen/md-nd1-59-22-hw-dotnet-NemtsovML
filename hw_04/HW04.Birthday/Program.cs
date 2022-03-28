@@ -18,9 +18,10 @@ namespace HW04.Birthday
                 {
                     Console.WriteLine("The number of month has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
-                    bool result2 = char.TryParse(input2, out char yn);
-                    if (result2) yn = char.ToLower(yn);
-                    if (result2 & yn == 'y')
+                    //bool result2 = char.TryParse(input2, out char yn);
+                    //if (result2) yn = char.ToLower(yn);
+                    //if (result2 & yn == 'y')
+                    if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                         Console.WriteLine("Input correct value of the month:");
                     else goto ToEnd;
                 }
@@ -36,9 +37,10 @@ namespace HW04.Birthday
                 {
                     Console.WriteLine("The number of the year has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
-                    bool result2 = char.TryParse(input2, out char yn);
-                    if (result2) yn = char.ToLower(yn);
-                    if (result2 & yn == 'y')
+                    //bool result2 = char.TryParse(input2, out char yn);
+                    //if (result2) yn = char.ToLower(yn);
+                    //if (result2 & yn == 'y')
+                    if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                         Console.WriteLine("Input correct value of the year:");
                     else goto ToEnd;
                 }
@@ -54,9 +56,10 @@ namespace HW04.Birthday
                 {
                     Console.WriteLine("The number of month has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
-                    bool result2 = char.TryParse(input2, out char yn);
-                    if (result2) yn = char.ToLower(yn);
-                    if (result2 & yn == 'y')
+                    //bool result2 = char.TryParse(input2, out char yn);
+                    //if (result2) yn = char.ToLower(yn);
+                    //if (result2 & yn == 'y')
+                    if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                         Console.WriteLine("Input correct value of the month:");
                     else goto ToEnd;
                 }
@@ -78,9 +81,10 @@ namespace HW04.Birthday
                 {
                     Console.WriteLine("The number of the year has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
-                    bool result2 = char.TryParse(input2, out char yn);
-                    if (result2) yn = char.ToLower(yn);
-                    if (result2 & yn == 'y')
+                    //bool result2 = char.TryParse(input2, out char yn);
+                    //if (result2) yn = char.ToLower(yn);
+                    //if (result2 & yn == 'y')
+                    if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                         Console.WriteLine("Input correct value of the year:");
                     else goto ToEnd;
                 }
@@ -94,8 +98,9 @@ namespace HW04.Birthday
 
      ToEnd: Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
             string? input3 = Console.ReadLine();
-            bool result3 = char.TryParse(input3, out char yn1);
-            if (result3 == true & yn1 == 'Y' || yn1 == 'y') goto ToStart;
+            //bool result3 = char.TryParse(input3, out char yn1);
+            //if (result3 == true & yn1 == 'Y' || yn1 == 'y') goto ToStart;
+            if (input3.Equals("Y", StringComparison.OrdinalIgnoreCase)) goto ToStart;
             else
             {
                 Console.WriteLine("Press any key to quit the application.");
