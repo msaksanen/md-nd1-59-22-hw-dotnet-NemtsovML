@@ -23,8 +23,9 @@ namespace HW._06.Task2
                     {
                         Console.WriteLine($"The item[{i + 1}] has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                         string? input2 = Console.ReadLine();
-                        bool result2 = char.TryParse(input2, out char yn);
-                        if (result2 == true & yn == 'Y' || yn == 'y')
+                        //bool result2 = char.TryParse(input2, out char yn);
+                        //if (result2 == true & yn == 'Y' || yn == 'y')
+                        if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                             Console.WriteLine($"Input correct value for item[{i + 1}].");
                         else goto ToEnd;
                     }
@@ -49,8 +50,9 @@ namespace HW._06.Task2
                 {
                     Console.WriteLine("The number has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
-                    bool result2 = char.TryParse(input2, out char yn);
-                    if (result2 == true & yn == 'Y' || yn == 'y')
+                    //bool result2 = char.TryParse(input2, out char yn);
+                    //if (result2 == true & yn == 'Y' || yn == 'y')
+                    if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                         Console.WriteLine("Input correct value for number:");
                     else goto ToEnd;
                 }
@@ -66,8 +68,9 @@ namespace HW._06.Task2
                 {
                     Console.WriteLine("The position has incorrect value. Would you like to input correct data and continue? Type Y/N.");
                     string? input2 = Console.ReadLine();
-                    bool result2 = char.TryParse(input2, out char yn);
-                    if (result2 == true & yn == 'Y' || yn == 'y')
+                    //bool result2 = char.TryParse(input2, out char yn);
+                    //if (result2 == true & yn == 'Y' || yn == 'y')
+                    if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase))
                         Console.WriteLine($"Input correct value for position (1 - {num.Length}).");
                     else goto ToEnd;
                 }
@@ -91,8 +94,9 @@ namespace HW._06.Task2
      ToEnd: num[num.Length - 1] = 0; //Zeroing last item for new program cycle.
             Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
             string? input3 = Console.ReadLine();
-            bool result3 = char.TryParse(input3, out char yn1);
-            if (result3 == true & yn1 == 'Y' || yn1 == 'y') goto ToStart;
+            //bool result3 = char.TryParse(input3, out char yn1);
+            //if (result3 == true & yn1 == 'Y' || yn1 == 'y') goto ToStart;
+            if (input3.Equals("Y", StringComparison.OrdinalIgnoreCase)) goto ToStart;
             else
             {
                 Console.WriteLine("Press any key to quit the application.");
