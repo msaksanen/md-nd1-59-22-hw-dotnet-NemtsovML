@@ -13,9 +13,12 @@ namespace HW10.Task2
 
             person.house.MainDoor.Color = "brown";
 
-            House.Door door2 = default;               //Creates additional door and sets its color.
-            person.house.MakeNewDoor(ref door2);
+            //House.Door door2 = default;               //Creates additional door and sets its color.
+            //person.house.MakeNewDoor(ref door2);
+            //door2.Color = "white";
+            House.Door door2 = new House.Door();
             door2.Color = "white";
+
 
             person.ShowData();
             Console.WriteLine($"Other doors' data:");

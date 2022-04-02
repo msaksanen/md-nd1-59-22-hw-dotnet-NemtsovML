@@ -26,11 +26,11 @@ namespace HW10.Task2
             door.ShowData();
         }
 
-        public Door MakeNewDoor(ref House.Door doorname)
-        {
-            doorname = new Door();
-            return doorname;
-        }
+        //public Door MakeNewDoor(ref House.Door doorname)
+        //{
+        //    doorname = new Door();
+        //    return doorname;
+        //}
 
         public class Door //Nested Class
         {
