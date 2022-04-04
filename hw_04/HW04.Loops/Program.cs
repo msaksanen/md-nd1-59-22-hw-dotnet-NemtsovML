@@ -34,8 +34,9 @@ namespace HW04.Loops
             }
             Console.WriteLine("The program is finished. Would you like to start again? Type Y/N.");
             string? input2 = Console.ReadLine();
-            bool result2 = char.TryParse(input2, out char yn1);
-            if (result2 & yn1 == 'Y' || yn1 == 'y') goto ToStart;
+            //bool result2 = char.TryParse(input2, out char yn1);
+            //if (result2 & yn1 == 'Y' || yn1 == 'y') goto ToStart;
+            if (input2.Equals("Y", StringComparison.OrdinalIgnoreCase)) goto ToStart;
             else
             {
                 Console.WriteLine("Press any key to quit the application.");

@@ -1,9 +1,9 @@
 ﻿using System; 
+using System.IO;  //Contains types that allow reading and writing to files and data streams.
 
 namespace HW._03.Image
 {
-    using System; //Contains types that allow reading and writing to files and data streams.
-    using System.IO;
+    
     class Program
     {
         static void Main()
