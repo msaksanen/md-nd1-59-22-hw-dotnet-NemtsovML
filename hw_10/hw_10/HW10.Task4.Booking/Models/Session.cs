@@ -19,6 +19,7 @@ namespace HW10.Task4.Booking.Models
         public Account MakeNewAccount(ref Account accountname)
         {
             accountname = new Account();
+            AccountService.Add(ref accountname);
             return accountname;
         }
 
@@ -34,13 +35,15 @@ namespace HW10.Task4.Booking.Models
         //    return neworder;
         //}
 
-       internal protected Account Logon(ref Account Myaccount, string login, string password)
+       public Account Logon(ref Account Myaccount, string login, string password)
         {
              Myaccount = new Account();
-            //Perform seacrh in database
-            //If algo finds login and password in db then
-            //Myaccount=db_account;
-            Console.WriteLine("Logging on..");
+             Myaccount= AccountService.AccountSearch (login, password, out bool isCorrectPwd, out bool isLoginExisted);
+            if (isLoginExisted && !isCorrectPwd)
+            {
+                Console.WriteLine("The password is incorrect.");
+            }
+            else Console.WriteLine("Logging on..");
             return Myaccount;
 
         }

@@ -7,21 +7,23 @@ using System.Threading.Tasks;
 
 namespace HW10.Task4.Booking.Models
 {
-    class Account
+    public class Account
     {
-        private protected string Login { get; set; }
+        internal protected string Login { get; set; }
 
-        private protected string Password { get; set; }
+        internal protected string Password { get; set; }
 
-        private protected string UserName { get; set; } = "Underfined";
+        internal protected Guid Id { get; set; }
 
-        private protected string Age { get; set; }
+        internal protected string UserName { get; set; } = "Underfined";
 
-        private protected string AdditionalInfo { get; set; }
+        internal protected string Age { get; set; }
 
-        private protected string PaymentMethod { get; set; }
+        internal protected string AdditionalInfo { get; set; }
 
-        private protected MailAddress UserEmail { get; set; } =  new MailAddress("", "");
+        internal protected string PaymentMethod { get; set; }
+
+        internal protected MailAddress UserEmail { get; set; } =  new MailAddress("", "");
 
         public Account()
         { }

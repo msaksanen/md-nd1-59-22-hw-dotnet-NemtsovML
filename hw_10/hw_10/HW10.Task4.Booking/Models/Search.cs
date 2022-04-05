@@ -39,7 +39,10 @@ namespace HW10.Task4.Booking.Models
         public void AdditionalCriteriaSearch()
         { }
 
-
+        public static void SearchAddDB(Account account, Search search)
+        {
+            SearchRepository.Repos.Add(account, search);
+        }
 
     }
    
