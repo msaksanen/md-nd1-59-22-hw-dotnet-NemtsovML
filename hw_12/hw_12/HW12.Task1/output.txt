@@ -1,0 +1,83 @@
+New Moto object HardRider is created and put in the MotoRepository List.
+New Moto object Minsky is created and put in the MotoRepository List.
+New Moto object Java Next is created and put in the MotoRepository List.
+New Moto object Harley Roadster is created and put in the MotoRepository List.
+New Moto object Izhevsk is created and put in the MotoRepository List.
+Motorcycle List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Minsk. Model: MK22. Name: Minsky. ReleaseDate: 1995. ID: 830fbede-3b5e-4c33-9790-c7884a2a6e61
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+Motorcycle. Manufacturer: IZH. Model: IV35. Name: Izhevsk. ReleaseDate: 1989. ID: a0826a5c-49d8-4ba8-838b-43a86630fc5d
+DeleteMoto: object with GUID a0826a5c-49d8-4ba8-838b-43a86630fc5d  is found in database. It's Izhevsk. It will be removed.
+UpdateMoto: object with GUID 830fbede-3b5e-4c33-9790-c7884a2a6e61  is found in database. It's Minsky. It will be replaced with your Minsky New Moto object.
+GetMotoByID: object with GUID f3cf26f1-d415-4b38-b7e0-5ef1f1a75652  is found. It's Java Next.
+Motorcycle List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 830fbede-3b5e-4c33-9790-c7884a2a6e61
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+Moto database saved to MotoRepository JSON file at: D:\user2.json
+JSON-related <Moto> List cleared.
+Moto database is loaded from MotoRepository JSON file at: D:\user2.json
+Motorcycle List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 830fbede-3b5e-4c33-9790-c7884a2a6e61
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+New Moto object Banzai is created and put in the MotoRepository List.
+Moto database saved to MotoRepository JSON file at: D:\user2.json
+Moto database is loaded from MotoRepository JSON file at: D:\user2.json
+Motorcycle List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 830fbede-3b5e-4c33-9790-c7884a2a6e61
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+Motorcycle. Manufacturer: Kawasaki. Model: K217. Name: Banzai. ReleaseDate: 2000. ID: 15d8a8b6-205f-4af0-b50b-a6e3006738e2
+New Moto object Yamato is created and put in the MotoRepository List.
+Moto database saved to MotoRepository JSON file at: D:\user2.json
+Moto database is loaded from MotoRepository JSON file at: D:\user2.json
+Motorcycle List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 830fbede-3b5e-4c33-9790-c7884a2a6e61
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+Motorcycle. Manufacturer: Kawasaki. Model: K217. Name: Banzai. ReleaseDate: 2000. ID: 15d8a8b6-205f-4af0-b50b-a6e3006738e2
+Motorcycle. Manufacturer: Yamaha. Model: Y17. Name: Yamato. ReleaseDate: 2010. ID: 492ae610-369d-4c65-b8c1-3d0aa5920be8
+Objects are saved in DataBase.
+List of objects in DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 6a76e834-b093-4e43-a57f-3cf943fd407b
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 73b74c85-570b-4226-9324-abdeb4a2bfec
+Objects of previous base are appended to in SQL DataBase.
+List of objects in DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 6a76e834-b093-4e43-a57f-3cf943fd407b
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 73b74c85-570b-4226-9324-abdeb4a2bfec
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 830fbede-3b5e-4c33-9790-c7884a2a6e61
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+Motorcycle. Manufacturer: Kawasaki. Model: K217. Name: Banzai. ReleaseDate: 2000. ID: 15d8a8b6-205f-4af0-b50b-a6e3006738e2
+Motorcycle. Manufacturer: Yamaha. Model: Y17. Name: Yamato. ReleaseDate: 2010. ID: 492ae610-369d-4c65-b8c1-3d0aa5920be8
+New Moto object Isuzu is created and put in the MotoRepository DB.
+DeleteMoto: object with GUID 830fbede-3b5e-4c33-9790-c7884a2a6e61  is found in database. It's Minsky New. It will be removed.
+Motorcycle List Info from SQL DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 6a76e834-b093-4e43-a57f-3cf943fd407b
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 73b74c85-570b-4226-9324-abdeb4a2bfec
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+Motorcycle. Manufacturer: Kawasaki. Model: K217. Name: Banzai. ReleaseDate: 2000. ID: 15d8a8b6-205f-4af0-b50b-a6e3006738e2
+Motorcycle. Manufacturer: Yamaha. Model: Y17. Name: Yamato. ReleaseDate: 2010. ID: 492ae610-369d-4c65-b8c1-3d0aa5920be8
+Motorcycle. Manufacturer: Suzuki. Model: SZ17. Name: Isuzu. ReleaseDate: 2012. ID: 1af28bd2-5bce-46ea-9f2b-39bbe6f7b6d5
+UpdateMoto: object with GUID 492ae610-369d-4c65-b8c1-3d0aa5920be8  is found in database. It's Yamato. It will be replaced with your Toto Moto object.
+GetMotoByID: object with GUID 492ae610-369d-4c65-b8c1-3d0aa5920be8  is found. It's Toto.
+Motorcycle List Info from SQL DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 6a76e834-b093-4e43-a57f-3cf943fd407b
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 73b74c85-570b-4226-9324-abdeb4a2bfec
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: 2de4a6c8-1967-43a5-9821-2079c1ab9da9
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: f3cf26f1-d415-4b38-b7e0-5ef1f1a75652
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: 92799629-9197-44d1-a1dc-a9372906e4f6
+Motorcycle. Manufacturer: Kawasaki. Model: K217. Name: Banzai. ReleaseDate: 2000. ID: 15d8a8b6-205f-4af0-b50b-a6e3006738e2
+Motorcycle. Manufacturer: Yamaha3. Model: Y27. Name: Toto. ReleaseDate: 2010. ID: 492ae610-369d-4c65-b8c1-3d0aa5920be8
+Motorcycle. Manufacturer: Suzuki. Model: SZ17. Name: Isuzu. ReleaseDate: 2012. ID: 1af28bd2-5bce-46ea-9f2b-39bbe6f7b6d5
+ 
