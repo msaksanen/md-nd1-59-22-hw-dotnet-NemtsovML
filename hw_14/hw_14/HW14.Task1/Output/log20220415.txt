@@ -1,0 +1,40 @@
+2022-04-15 23:25:12.942 +03:00 [INF] Serilog logging started
+2022-04-15 23:25:13.515 +03:00 [DBG] Searching for object Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 98e0035a-af0b-4dea-b324-eb18ca2a50e6.
+2022-04-15 23:25:13.517 +03:00 [DBG] Searching for object Motorcycle. Manufacturer: Minsk. Model: MK32. Name: Minsk Old. ReleaseDate: 1982. ID: 6f674e99-8673-48eb-9aac-ef27a108ebc3.
+2022-04-15 23:25:13.737 +03:00 [ERR] Exception: UpdateTransport. Object with GUID 6f674e99-8673-48eb-9aac-ef27a108ebc3 is not found.
+2022-04-15 23:25:13.740 +03:00 [ERR] Exception:    at HW14.Task1.Services.ListService`1.UpdateTransp(T transport, List`1 list) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\ListService.cs:line 61
+2022-04-15 23:25:19.042 +03:00 [DBG] Searching for object with ID 46ed0f34-2f57-40ad-95ff-805f58abac4a.
+2022-04-15 23:25:19.049 +03:00 [DBG] Searching for object with ID 1516cef2-b339-4deb-882f-fc43601f3968.
+2022-04-15 23:25:19.097 +03:00 [ERR] Exception: GetByID. Object with GUID 1516cef2-b339-4deb-882f-fc43601f3968 is not found.
+2022-04-15 23:25:19.110 +03:00 [ERR] Exception:    at HW14.Task1.Services.ListService`1.GetByID(Guid id, List`1 list) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\ListService.cs:line 128
+2022-04-15 23:25:19.839 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:19.986 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.006 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.012 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.030 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.062 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.085 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.111 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.139 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.144 +03:00 [DBG] Searching for object with ID d592941d-ef2e-4641-8127-447104b09ef8.
+2022-04-15 23:25:20.188 +03:00 [ERR] Exception: GetByID. Object with GUID d592941d-ef2e-4641-8127-447104b09ef8 is not found.
+2022-04-15 23:25:20.193 +03:00 [ERR] Exception:    at HW14.Task1.Services.JsonService`1.GetByID(Guid id, ListRepos`1 repos) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\JsonService.cs:line 133
+2022-04-15 23:25:20.205 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:20.214 +03:00 [DBG] Searching for object Motorcycle. Manufacturer: KTM. Model: KT32. Name: KTM-X. ReleaseDate: 1999. ID: fbc01d3d-bb3a-409c-83aa-1fc88e8e83be.
+2022-04-15 23:25:20.281 +03:00 [ERR] Exception: UpdateTransp. Object with GUID fbc01d3d-bb3a-409c-83aa-1fc88e8e83be is not found.
+2022-04-15 23:25:20.285 +03:00 [ERR] Exception:    at HW14.Task1.Services.JsonService`1.UpdateTransp(T transport, ListRepos`1 repos) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\JsonService.cs:line 189
+2022-04-15 23:25:22.239 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:22.281 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:22.305 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:22.314 +03:00 [DBG] Searching for object Car. Manufacturer: Audi. Model: Q8. Name: Audi. ReleaseDate: 2021. ID: a0706efd-9d49-4540-b71c-4e0304ccc79e.
+2022-04-15 23:25:22.344 +03:00 [DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+2022-04-15 23:25:27.035 +03:00 [DBG] Searching for object  with ID9ab5b456-9dec-4fd3-9a65-e17a549e7eda.
+2022-04-15 23:25:27.389 +03:00 [ERR] Exception: GetByID. Object with GUID 9ab5b456-9dec-4fd3-9a65-e17a549e7eda is not found.
+2022-04-15 23:25:27.394 +03:00 [ERR] Exception:    at HW14.Task1.Services.DbaseService`1.GetByID(Guid id, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 118
+2022-04-15 23:25:27.401 +03:00 [DBG] Searching for object Motorcycle. Manufacturer: Yamaha3. Model: Y27. Name: Toto. ReleaseDate: 2010. ID: c2f87e1b-549e-4aa0-bae6-aa342cfabcd5.
+2022-04-15 23:25:27.502 +03:00 [ERR] Exception: Update Transport:Object with GUID c2f87e1b-549e-4aa0-bae6-aa342cfabcd5 is not found in database.
+2022-04-15 23:25:27.509 +03:00 [ERR] Exception:    at HW14.Task1.Services.DbaseService`1.UpdateTransp(T transport, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 59
+2022-04-15 23:25:29.921 +03:00 [DBG] Searching for object  with IDc2f87e1b-549e-4aa0-bae6-aa342cfabcd5.
+2022-04-15 23:25:30.053 +03:00 [ERR] Exception: GetByID. Object with GUID c2f87e1b-549e-4aa0-bae6-aa342cfabcd5 is not found.
+2022-04-15 23:25:30.060 +03:00 [ERR] Exception:    at HW14.Task1.Services.DbaseService`1.GetByID(Guid id, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 118
+2022-04-15 23:25:30.160 +03:00 [INF] Serilog logging finished

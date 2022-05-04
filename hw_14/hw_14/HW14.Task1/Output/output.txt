@@ -1,0 +1,194 @@
+HW14.Task1.exe  >>output.txt (in command line)
+[23:26:41 INF] Serilog logging started
+New Transport object HardRider is created and put in the Repository List.
+New Transport object Minsky is created and put in the Repository List.
+New Transport object Java Next is created and put in the Repository List.
+New Transport object Harley Roadster is created and put in the Repository List.
+New Transport object Izhevsk is created and put in the Repository List.
+Transport List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Motorcycle. Manufacturer: Minsk. Model: MK22. Name: Minsky. ReleaseDate: 1995. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Motorcycle. Manufacturer: IZH. Model: IV35. Name: Izhevsk. ReleaseDate: 1989. ID: ba949de2-4f87-43ec-89a6-8ff2653815bb
+Delete Transport: object with GUID ba949de2-4f87-43ec-89a6-8ff2653815bb  is found in database. It's Izhevsk. It will be removed.
+[23:26:41 DBG] Searching for object Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584.
+UpdateTransport: object with GUID 822c00e3-0c2d-4dae-b26f-56b0c75f7584 is found in database. It's Minsky. It will be replaced with your Minsky New Transport object.
+[23:26:41 DBG] Searching for object Motorcycle. Manufacturer: Minsk. Model: MK32. Name: Minsk Old. ReleaseDate: 1982. ID: 7fa177b6-f57a-43df-b009-4b23c5e333f7.
+Exception: UpdateTransport. Object with GUID 7fa177b6-f57a-43df-b009-4b23c5e333f7 is not found.
+Exception:    at HW14.Task1.Services.ListService`1.UpdateTransp(T transport, List`1 list) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\ListService.cs:line 61
+[23:26:41 ERR] Exception: UpdateTransport. Object with GUID 7fa177b6-f57a-43df-b009-4b23c5e333f7 is not found.
+[23:26:41 ERR] Exception:    at HW14.Task1.Services.ListService`1.UpdateTransp(T transport, List`1 list) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\ListService.cs:line 61
+Would you like to add it to the database? Type Y/ N.
+[23:26:42 DBG] Searching for object with ID 7d80fadd-d4e1-4fbe-924f-b3256241a7d9.
+GetByID: object with GUID 7d80fadd-d4e1-4fbe-924f-b3256241a7d9  is found. It's Java Next.
+[23:26:42 DBG] Searching for object with ID 8d6ad1ea-0386-4a4c-83b0-104e8447039b.
+Exception: GetByID. Object with GUID 8d6ad1ea-0386-4a4c-83b0-104e8447039b is not found.
+Exception:    at HW14.Task1.Services.ListService`1.GetByID(Guid id, List`1 list) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\ListService.cs:line 128
+[23:26:42 ERR] Exception: GetByID. Object with GUID 8d6ad1ea-0386-4a4c-83b0-104e8447039b is not found.
+[23:26:42 ERR] Exception:    at HW14.Task1.Services.ListService`1.GetByID(Guid id, List`1 list) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\ListService.cs:line 128
+Transport List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+New Transport object Civic is created and put in the Repository List.
+New Transport object BMW is created and put in the Repository List.
+New Transport object Audi is created and put in the Repository List.
+Transport List Info List`1:
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Car. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Car. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Car. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+Transport database Liet System.Collections.Generic.List`1[HW14.Task1.Enitities.Transport] saved to repository JSON file at: D:\user2.json
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Transport List Info List`1:
+Transport. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Transport. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Transport. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Transport. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Transport. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Transport. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Transport. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+JSON-related file D:\user2.json cleared.
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+A provided file D:\user2.json in repository  is not a Transport Repository JSON List.
+Transport database Liet System.Collections.Generic.List`1[HW14.Task1.Enitities.Transport] saved to repository JSON file at: D:\user2.json
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Transport List Info List`1:
+Transport. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Transport. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Transport. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Transport. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Transport. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Transport. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Transport. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Transport database saved to Repository JSON file at: D:\user2.json
+Transport object Banzai saved to Transport Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Transport database saved to Repository JSON file at: D:\user2.json
+Transport object Yamato saved to Transport Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Transport List Info List`1:
+Transport. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Transport. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Transport. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Transport. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Transport. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Transport. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Transport. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+Transport. Manufacturer: Kawasaki. Model: K217. Name: Banzai. ReleaseDate: 2000. ID: 761cf21a-e250-4311-8ed7-ca22d7834391
+Transport. Manufacturer: Yamaha. Model: Y17. Name: Yamato. ReleaseDate: 2010. ID: 56121348-90f2-4960-a2cd-671d31af63f0
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Delete Transport: object with GUID 761cf21a-e250-4311-8ed7-ca22d7834391  is found in database. It's Banzai. It will be removed.
+Transport database saved to Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Searching for object with ID c9efe187-15db-46fb-8d03-80f93c91155c.
+Exception: GetByID. Object with GUID c9efe187-15db-46fb-8d03-80f93c91155c is not found.
+Exception:    at HW14.Task1.Services.JsonService`1.GetByID(Guid id, ListRepos`1 repos) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\JsonService.cs:line 133
+[23:26:43 ERR] Exception: GetByID. Object with GUID c9efe187-15db-46fb-8d03-80f93c91155c is not found.
+[23:26:43 ERR] Exception:    at HW14.Task1.Services.JsonService`1.GetByID(Guid id, ListRepos`1 repos) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\JsonService.cs:line 133
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Searching for object Motorcycle. Manufacturer: KTM. Model: KT32. Name: KTM-X. ReleaseDate: 1999. ID: beca7f5a-296d-4a72-86fe-74bc4bc09cde.
+Exception: UpdateTransp. Object with GUID beca7f5a-296d-4a72-86fe-74bc4bc09cde is not found.
+Exception:    at HW14.Task1.Services.JsonService`1.UpdateTransp(T transport, ListRepos`1 repos) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\JsonService.cs:line 189
+[23:26:43 ERR] Exception: UpdateTransp. Object with GUID beca7f5a-296d-4a72-86fe-74bc4bc09cde is not found.
+[23:26:43 ERR] Exception:    at HW14.Task1.Services.JsonService`1.UpdateTransp(T transport, ListRepos`1 repos) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\JsonService.cs:line 189
+Would you like to add it to the database? Type Y/ N.
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Transport List Info List`1:
+Transport. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Transport. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Transport. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Transport. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Transport. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Transport. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Transport. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+Transport. Manufacturer: Yamaha. Model: Y17. Name: Yamato. ReleaseDate: 2010. ID: 56121348-90f2-4960-a2cd-671d31af63f0
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Searching for object Car. Manufacturer: Audi. Model: Q8. Name: Audi. ReleaseDate: 2021. ID: 21839946-c32d-43a3-98fa-a2017784b1c9.
+UpdateTransport: object with GUID 21839946-c32d-43a3-98fa-a2017784b1c9 is found in database. It's Audi. It will be replaced with your Audi Transport object.
+Transport database saved to Repository JSON file at: D:\user2.json
+[23:26:43 DBG] Loading JSON file to Repository Collection from: D:\user2.json.
+Transport database loaded from Repository JSON file at: D:\user2.json
+Transport List Info List`1:
+Transport. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Transport. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Transport. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Transport. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Transport. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Transport. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Transport. Manufacturer: Audi. Model: Q8. Name: Audi. ReleaseDate: 2021. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+Transport. Manufacturer: Yamaha. Model: Y17. Name: Yamato. ReleaseDate: 2010. ID: 56121348-90f2-4960-a2cd-671d31af63f0
+Objects are saved in DataBase.
+List of objects in DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 1e0e2fb0-b0ed-45fd-ab1a-5cf79a5acee8
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 12e22d41-d760-4e6b-9cd0-216ba9908ef2
+Objects of previous base are appended to in SQL DataBase.
+List of objects in DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 1e0e2fb0-b0ed-45fd-ab1a-5cf79a5acee8
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 12e22d41-d760-4e6b-9cd0-216ba9908ef2
+Motorcycle. Manufacturer: Minsk. Model: MK45. Name: Minsky New. ReleaseDate: 1999. ID: 822c00e3-0c2d-4dae-b26f-56b0c75f7584
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Car. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Car. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Car. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+New Transport object Isuzu is created and put in the Transport Repository DB.
+Delete Transport: object with GUID 822c00e3-0c2d-4dae-b26f-56b0c75f7584  is found in database. It's Minsky New. It will be removed.
+Transport List Info from SQL DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 1e0e2fb0-b0ed-45fd-ab1a-5cf79a5acee8
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 12e22d41-d760-4e6b-9cd0-216ba9908ef2
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Car. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Car. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Car. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+Motorcycle. Manufacturer: Suzuki. Model: SZ17. Name: Isuzu. ReleaseDate: 2012. ID: 2685e138-7ae0-4959-a4f9-150f9014668a
+[23:26:47 DBG] Searching for object  with IDc68f55e6-94a5-4abd-9ce3-656fdd518af9.
+Exception: GetByID. Object with GUID c68f55e6-94a5-4abd-9ce3-656fdd518af9 is not found.
+Exception:    at HW14.Task1.Services.DbaseService`1.GetByID(Guid id, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 118
+[23:26:47 ERR] Exception: GetByID. Object with GUID c68f55e6-94a5-4abd-9ce3-656fdd518af9 is not found.
+[23:26:47 ERR] Exception:    at HW14.Task1.Services.DbaseService`1.GetByID(Guid id, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 118
+[23:26:47 DBG] Searching for object Motorcycle. Manufacturer: Yamaha3. Model: Y27. Name: Toto. ReleaseDate: 2010. ID: 56121348-90f2-4960-a2cd-671d31af63f0.
+Exception: Update Transport:Object with GUID 56121348-90f2-4960-a2cd-671d31af63f0 is not found in database.
+Exception:    at HW14.Task1.Services.DbaseService`1.UpdateTransp(T transport, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 59
+[23:26:47 ERR] Exception: Update Transport:Object with GUID 56121348-90f2-4960-a2cd-671d31af63f0 is not found in database.
+[23:26:47 ERR] Exception:    at HW14.Task1.Services.DbaseService`1.UpdateTransp(T transport, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 59
+Would you like to add it to the database? Type Y/ N.
+[23:26:47 DBG] Searching for object  with ID56121348-90f2-4960-a2cd-671d31af63f0.
+Exception: GetByID. Object with GUID 56121348-90f2-4960-a2cd-671d31af63f0 is not found.
+Exception:    at HW14.Task1.Services.DbaseService`1.GetByID(Guid id, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 118
+[23:26:47 ERR] Exception: GetByID. Object with GUID 56121348-90f2-4960-a2cd-671d31af63f0 is not found.
+[23:26:47 ERR] Exception:    at HW14.Task1.Services.DbaseService`1.GetByID(Guid id, ApplicationContext`1 db) in C:\Users\wisor\source\repos\md-nd1-59-22-hw-dotnet-NemtsovML\hw_14\hw_14\HW14.Task1\Services\DbaseService.cs:line 118
+Transport List Info from SQL DB:
+Motorcycle. Manufacturer: Yamaha2. Model: Y27. Name: Nippon. ReleaseDate: 2012. ID: 1e0e2fb0-b0ed-45fd-ab1a-5cf79a5acee8
+Motorcycle. Manufacturer: Kawasaki2. Model: K3E17. Name: Senko. ReleaseDate: 2018. ID: 12e22d41-d760-4e6b-9cd0-216ba9908ef2
+Motorcycle. Manufacturer: Honda. Model: CX7. Name: HardRider. ReleaseDate: 2015. ID: f35d827b-f6b6-4135-893e-091c5918fb9d
+Motorcycle. Manufacturer: Java. Model: JV34. Name: Java Next. ReleaseDate: 1999. ID: 7d80fadd-d4e1-4fbe-924f-b3256241a7d9
+Motorcycle. Manufacturer: Harley-Davidson. Model: HD27. Name: Harley Roadster. ReleaseDate: 2005. ID: f14eed76-ff37-4917-85e6-bffdca8d3340
+Car. Manufacturer: Honda. Model: XW2. Name: Civic. ReleaseDate: 2010. ID: e2de8684-a3d4-444a-8998-9769fa40520a
+Car. Manufacturer: BMW. Model: X6. Name: BMW. ReleaseDate: 2005. ID: d62434d8-bb57-4297-943a-6ce1a84fd7fb
+Car. Manufacturer: Audi. Model: Q6. Name: Audi. ReleaseDate: 2019. ID: 21839946-c32d-43a3-98fa-a2017784b1c9
+Motorcycle. Manufacturer: Suzuki. Model: SZ17. Name: Isuzu. ReleaseDate: 2012. ID: 2685e138-7ae0-4959-a4f9-150f9014668a
+[23:26:47 INF] Serilog logging finished
+
